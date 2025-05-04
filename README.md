@@ -3,9 +3,11 @@
 Este repositório contém os dados e códigos utilizados no desenvolvimento do artigo submetido ao IEEE Latin America Transactions, intitulado “Local Volt-Var Control Applied in an Islanded Microgrid Using Supervised Learning Techniques" (ID de submissão: 9469).
 
 Descrição
+
 O projeto investiga o uso de modelos de aprendizado de máquina para ajuste do controle Volt-Var (CVV) em inversores inteligentes operando localmente em Pontos de Acoplamento Comum (PAC), com o objetivo de melhorar a regulação de tensão em microrredes operando de forma ilhada. Este repositório oferece todos os recursos necessários para replicar os experimentos descritos no artigo.
 
 Conteúdo do Repositório
+
 •	Dataset_CVV_v.3.xlsx
 Arquivo contendo o conjunto de dados utilizado para o treinamento e validação dos modelos. O dataset inclui variáveis relacionadas à tensão (magnitude e ângulo), além de rótulos com as classificações de estado da tensão.
 
@@ -13,7 +15,9 @@ Arquivo contendo o conjunto de dados utilizado para o treinamento e validação 
 Script em Python com a implementação dos modelos de aprendizado de máquina utilizados no artigo. O código inclui pré-processamento, definição da arquitetura da RNA, treinamento e avaliação dos modelos.
 
 Requisitos
+
 Para executar o script, recomenda-se a utilização de um ambiente Python 3.11.5 com as seguintes bibliotecas instaladas:
+
 •	pandas
 •	numpy
 •	scikit-learn

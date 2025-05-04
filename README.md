@@ -46,16 +46,20 @@ Observação: Execute um script por vez. O código apresenta os três modelos de
 This repository contains the data and code used in the development of the article submitted to IEEE Latin America Transactions, entitled “Local Volt-Var Control Applied in an Islanded Microgrid Using Supervised Learning Techniques” (Submission ID: 9469).
 
 Description
+
 The project investigates the use of machine learning models to adjust the Volt-Var Control (VVC) in smart inverters operating locally at Points of Common Coupling (PCC), aiming to improve voltage regulation in islanded microgrids. This repository provides all necessary resources to replicate the experiments presented in the article.
 
 Repository Contents
+
 •	Dataset_CVV_v.3.xlsx
 Excel file containing the dataset used for training and validating the models. The dataset includes variables related to voltage (magnitude and angle), along with labels indicating the voltage condition classifications.
 
 •	CVV_MR_2025.py
+
 Python script implementing the machine learning models used in the study. The code includes preprocessing, definition of the MLP architecture, training, and evaluation of the models.
 
 Requirements
+
 To run the script, it is recommended to use a Python 3.11.5 environment with the following libraries installed:
 
 •	pandas
@@ -69,6 +73,7 @@ To run the script, it is recommended to use a Python 3.11.5 environment with the
 Make sure to review the script to confirm the exact version of the libraries required, depending on your development environment setup.
 
 Reproduction Instructions
+
 1.	Clone this repository;
 2.	Open the CVV_MR_2025.py file and adjust the file paths if necessary;
 3.	Run the script to train the models and reproduce the results presented in the article.

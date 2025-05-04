@@ -36,9 +36,6 @@ Instruções de Reprodução
 Observação: Execute um script por vez. O código apresenta os três modelos de ML na mesma descrição.
 #
 #
-#
-#
-#
 #English Version:
 
 #Project Repository – IEEE Latin America Transactions Article (ID: 9469)
